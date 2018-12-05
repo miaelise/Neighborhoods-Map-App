@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Donut Friend",
+    "address": "5107 York Blvd, Los Angeles CA 90065",
+    "url": "http://www.donutfriend.com/",
+    "pos": {"lat":34.1212494,"lng":-118.2045417},
+    "cat": "T"
+  },
+  {
+    "name": "Sharky's Woodfired Mexican Grill",
+    "address": "1791 N Victory Pl, Burbank CA 91502",
+    "url": "http://www.sharkys.com/",
+    "pos": {"lat":34.1917104,"lng":-118.3294854},
+    "cat": "E"
+
+  },
+  {
+    "name": "Romancing the Bean",
+    "address": "3413 W Magnolia Blvd, Burbank CA 91505",
+    "url": "http://romancingthebeancafe.com/",
+    "pos": {"lat":34.1689276,"lng":-118.3445053},
+    "cat": "T E"
+
+  },
+  {
+    "name": "The Baked Bear",
+    "address": "965 Foothill Blvd #225E-B, La Canada Flintridge CA 91011",
+    "url": "http://www.thebakedbear.com/",
+    "pos": {"lat":34.2042866,"lng":-118.1995763},
+    "cat": "T"
+  },
+  {
+    "name": "La Cabañita",
+    "address": "3445 N Verdugo Blvd, Glendale CA 91208",
+    "url": "http://www.lacabanitarestaurant.com/",
+    "pos": {"lat":34.2016336,"lng":-118.2281282},
+    "cat": "E"
+  },
+  {
+    "name": "SunCafe",
+    "address": "10820 Ventura Blvd, Studio City CA 91604",
+    "url": "http://www.suncafe.com/",
+    "pos": {"lat":34.138584,"lng":-118.3666887},
+    "cat": "E"
+  },
+  {
+    "name": "Tickle Tree Cafe",
+    "address": "2853 Foothill Blvd, La Crescenta CA 91214",
+    "url": "http://www.tickletree.cafe",
+    "pos": {"lat":34.2252871,"lng":-118.2414483},
+    "cat": "E T"
+  },
+  {
+    "name": "Real Food Daily",
+    "address": "899 E Del Mar Blvd, Pasadena CA 91106",
+    "url": "http://www.realfooddailyla.com/",
+    "pos": {"lat":34.1410791,"lng":-118.1320845},
+    "cat": "E"
+  },
+  {
+    "name": "Lotus Vegan",
+    "address": "4715 Lankershim Blvd, North Hollywood, CA 91602",
+    "url": "https://www.lotusveganla.com/",
+    "pos": {"lat":34.1560408,"lng":-118.369688},
+    "cat": "E"
+  }
+]

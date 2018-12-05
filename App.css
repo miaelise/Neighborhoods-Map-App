@@ -1,0 +1,165 @@
+body {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-body {
+  display: flex;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  max-height: 70px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.map-section {
+  position: relative;
+  width: 70%;
+
+}
+
+.google-map {
+  position: absolute !important;
+  right: 0 !important;
+  width: 100% !important;
+
+
+}
+
+.map {
+  position: relative;
+}
+
+.info-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.sidebar-section {
+  width: 30%;
+  max-width: 100%;
+  height: 100vh;
+  padding: 5px;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.sidebar {
+width: 100%;
+height: 100vh;
+overflow-y: scroll;
+margin-left: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+.content {
+  min-width: 80px;
+  border: 1px solid grey;
+  background-color: pink;
+  display: none;
+  z-index: 1;
+}
+
+.content p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.content p {
+  margin: 5px 0;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+ol {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+li {
+  padding: 15px 5px;
+  margin: 15px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  background-color: pink;
+
+}
+
+.venue-name {
+  font-size: 16px;
+  margin-top: 0;
+  color: red;
+  cursor: pointer;
+}
+
+.venue-address {
+  font-size: 13px;
+}
+
+.venuePhoto {
+  height: 100%;
+  width: 100%;
+}
+
+.error {
+  position: absolute;
+  z-index: 100;
+}
+
+@media screen and (max-width: 600px) {
+  .venue-name {
+    font-size: 14px;
+  }
+  .venue-address {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .venue-name, .venue-address {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+  .venue-name, .venue-address {
+    font-size: 10px;
+  }
+}
